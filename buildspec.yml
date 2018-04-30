@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - pip install pymysql -t .
+      - pip install keystonemiddleware==2.0 -t .
   post_build:
     commands:
       - echo Build completed on `date`
