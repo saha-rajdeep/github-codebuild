@@ -1,11 +1,11 @@
 version: 0.2
-
 phases:
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - pip install keystonemiddleware -t .
+      - pip install json -t .
+      - pip install requests -t .
   post_build:
     commands:
       - echo Build completed on `date`
